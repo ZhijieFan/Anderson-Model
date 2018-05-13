@@ -1,2 +1,3 @@
 # Anderson-Model
-This is a simple program that can solve Anderson-Model via exact diagonalization method. For the diagonalization, I use the Armadillo library.
+This is a simple program that can solve Anderson-Model via exact diagonalization method. For now the problem can solve the Anderson-model on a 2-D square lattice. The main idea is to first create a matrix reperentation of the Hamiltonian, and then diagonalize it to obtain the eigenvalues and the corresponding eigenvectors. The density of state, the inverse participation ratio and the partition function of the system can be calculated. In the Anderson-Model, the inverse participation ratio is of particular interest, because it characterizes the degree of wavefunction localization.
+For the diagonalization, I use the Armadillo library which is a very user friendly library. Maybe I will write my own linear algebra code someday.
